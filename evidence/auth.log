@@ -1,0 +1,5 @@
+2024-03-09T12:00:00.000Z host=jump01 prog=sshd msg=Accepted publickey for alice from 10.0.0.5 port 52222
+2024-03-09T12:00:05.000Z host=jump01 prog=sudo msg=alice ran tcpdump capture
+2024-03-09T12:01:10.000Z host=db01 prog=postgres msg=connection authorized user=replica database=orders
+2024-03-09T12:02:00.000Z host=jump01 prog=sshd msg=Disconnected from user alice 10.0.0.5 port 52222
+2024-03-09T11:59:00.000Z host=mail01 prog=postfix msg=NOQUEUE drop from unknown

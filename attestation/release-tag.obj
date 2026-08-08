@@ -1,0 +1,6 @@
+object 7dc6d56b98342831ade24e19a4f260f8a318a5c0f508d48cd8b3d31c851408a7
+type archive
+tag v1.0.0
+tagger ACME Release Bot <release-bot@acme.example> 1709985600 +0000
+
+acme-redis-breach-sample v1.0.0

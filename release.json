@@ -1,0 +1,8 @@
+{
+  "release_name": "acme-redis-breach-sample",
+  "tag": "v1.0.0",
+  "incident_id": "INC-7781",
+  "lfs_objects": [
+    "d96a31c2586445bad9ae7109cc10039511ae9a116ddffee6b67fead1fa846dbf"
+  ]
+}

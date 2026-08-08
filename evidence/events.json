@@ -1,0 +1,30 @@
+[
+  {
+    "event_id": "e-100",
+    "ts": "2024-03-09T12:00:30.000Z",
+    "host": "jump01",
+    "action": "tool_start",
+    "tool": "tcpdump"
+  },
+  {
+    "event_id": "e-101",
+    "ts": "2024-03-09T12:01:00.000Z",
+    "host": "jump01",
+    "action": "dns_lookup",
+    "name": "evil.example"
+  },
+  {
+    "event_id": "e-102",
+    "ts": "2024-03-09T12:01:45.000Z",
+    "host": "db01",
+    "action": "query",
+    "stmt": "copy orders to stdout"
+  },
+  {
+    "event_id": "e-103",
+    "ts": "2024-03-09T12:03:00.000Z",
+    "host": "ghost99",
+    "action": "beacon",
+    "name": "cdn.evil.example"
+  }
+]
