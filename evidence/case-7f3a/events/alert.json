@@ -1,0 +1,43 @@
+{
+  "case_id": "case-7f3a",
+  "events": [
+    {
+      "id": "evt-100",
+      "ts": "2023-11-14T09:16:02Z",
+      "severity": "high",
+      "ioc": {
+        "ip": "10.0.0.9",
+        "kind": "auth_fail"
+      },
+      "tags": [
+        "redis",
+        "bruteforce"
+      ]
+    },
+    {
+      "id": "evt-101",
+      "ts": "2023-11-14T09:16:10Z",
+      "severity": "medium",
+      "ioc": {
+        "ip": "198.51.100.77",
+        "kind": "scan"
+      },
+      "tags": [
+        "ufw",
+        "redis"
+      ]
+    },
+    {
+      "id": "evt-102",
+      "ts": "2023-11-14T09:17:01Z",
+      "severity": "low",
+      "ioc": {
+        "user": "deploy",
+        "kind": "sudo"
+      },
+      "tags": [
+        "host"
+      ]
+    }
+  ]
+}

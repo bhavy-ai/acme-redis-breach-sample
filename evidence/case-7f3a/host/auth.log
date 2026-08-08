@@ -1,0 +1,6 @@
+Nov 14 09:15:01 bastion sshd[2201]: Accepted publickey for deploy from 203.0.113.44 port 51122 ssh2
+Nov 14 09:15:44 redishost redis[440]: NOTICE Client 10.0.0.8:53122 connected
+Nov 14 09:16:02 redishost redis[440]: WARNING AUTH failure from 10.0.0.9:45000
+Nov 14 09:16:10 redishost kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.77 DST=10.0.0.55 PROTO=TCP DPT=6379
+bogus line without host field should drop
+Nov 14 09:17:01 bastion sudo: deploy : TTY=pts/0 ; USER=root ; COMMAND=/usr/bin/redis-cli INFO
