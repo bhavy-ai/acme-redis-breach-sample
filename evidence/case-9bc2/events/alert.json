@@ -1,0 +1,1 @@
+{"case_id": "case-9bc2", "events": [{"id": "evt-200", "ts": "2023-11-15T11:00:00Z", "severity": "medium", "ioc": {"ip": "192.0.2.10", "kind": "probe"}, "tags": ["redis"]}]}

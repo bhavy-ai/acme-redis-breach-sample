@@ -1,0 +1,6 @@
+{
+  "name": "acme-redis-breach-sample",
+  "tag": "custody-holdout-v1",
+  "case_id": "case-9bc2",
+  "lfs_endpoint_template": "https://github.com/bhavy-ai/acme-redis-breach-sample/releases/download/custody-holdout-v1/lfs-{oid}"
+}

@@ -1,0 +1,2 @@
+#1700100000
+redis-cli DBSIZE
